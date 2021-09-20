@@ -1,22 +1,93 @@
 {
     "broadArea": {
-        "name": "",
-        "link": ""
+        "name": "Civil Engineering",
+        "link": "https://www.vlab.co.in/broad-area-civil-engineering"
     },
-    "lab": "",
-    "deployLab": ,
-    "phase": ,
-    "collegeName": "",
-    "baseUrl": "",
-    "introduction": "",
-    "experiments": [],
+    "lab": "Basic Structural Analysis",
+    "deployLab": true,
+    "phase": 2,
+    "collegeName": "IIITH",
+    "baseUrl": "bsa-iiith.vlabs.ac.in",
+    "introduction": "This laboratory gives the basic understanding of structural member under the action of loads. How structure's behaviour will be changed if there is any redundancy and how suddenly it becomes unstable will be experienced by student. Basics of determinate and indeterminate structures will be introduced through virtual experiment. Plastic behaviour of joints can be understood in virtual experiment which otherwise is very difficult to understand in real experiments.</br></br>The main purpose of any structure is to support the loads coming on it by properly transferring them to the foundation. The computation of internal and external forces and displacements produced by the application of loads to make the structure safe. Detailed analysis is to be performed to determine the bending moments, shear force, axial forces etc at the required section. Basic structural analysis contains; linear elastic analysis of structural systems and members like, beam, column, slab, frame, footing etc.</br></br>Please note:</br>This lab requires few Software Dependencies to run the SimulationsThis lab requires few Software Dependencies to run the Simulations</br></br>1.Adobe Flash Plugin, Java1.7, Java3D 1.5.2 (The Java 3D API enables the creation of three-dimensional graphics applications and Internet-based 3D applets)</br>2.Browsers Firefox 50 and its below versions, internet explorer.</br>3.IcedTea Plugin for Linux Operating System.</br></br>We recommend the following for the smooth running of these simulations</br>Install Adobe Flash Plugin - This will enable you to run the experiments that need Flash support. Please follow the <a href='https://docs.google.com/document/d/0B_3qEAmTcWVJTzk5R1J6QXhVNjQ/edit?resourcekey=0-perEjVF4ne7tSM6tBYhGew'> to install the Flash Plugin</br>Install VirtualBox - Virtual Labs offers a free download of a customized VirtualBox with the required pre-installed software dependencies(Java 1.7, Java3D-1.5.2, IcedTea Plugin, and Adobe Flash Plugin). Please follow the <a href='https://docs.google.com/document/d/1mX0YMtFk4Dxn_vQBJmUJ8pIOPE2hVf6AscJMdLWd9k8/edit'>link</a> to download, install and use VirtualBox for Virtual Labs.",
+    "experiments": [
+                {
+      "name": "Single Span Beams Experiment",
+      "short-name": "single-span-beams",
+      "repo": "https://github.com/virtual-labs/exp-single-span-beams-iiith",
+      "tag": "v1.0.0",
+      "deploy": true
+                },
+                {
+      "name": "Continuous Beams Experiment",
+      "short-name": "continuous-beams",
+      "repo": "https://github.com/virtual-labs/exp-continuous-beams-iiith",
+      "tag": "v1.0.0",
+      "deploy": true
+                },
+                {
+      "name": "Column Analysis Experiment",
+      "short-name": "column-analysis",
+      "repo": "https://github.com/virtual-labs/exp-column-analysis-iiith",
+      "tag": "v1.0.0",
+      "deploy": true
+                },
+                {
+      "name": "Portal Frames Experiment",
+      "short-name": "portal-frames",
+      "repo": "https://github.com/virtual-labs/exp-portal-frames-iiith",
+      "tag": "v1.0.0",
+      "deploy": true
+                },
+                {
+      "name": "Plates Experiment",
+      "short-name": "plates",
+      "repo": "https://github.com/virtual-labs/exp-plates-iiith",
+      "tag": "v1.0.0",
+      "deploy": true
+                },
+                {
+      "name": "Rigid Joints Experiment",
+      "short-name": "rigid-joints",
+      "repo": "https://github.com/virtual-labs/exp-rigid-joints-iiith",
+      "tag": "v1.0.0",
+      "deploy": true
+                },
+                {
+      "name": "Arches Experiment",
+      "short-name": "arches",
+      "repo": "https://github.com/virtual-labs/exp-arches-iiith",
+      "tag": "v1.0.0",
+      "deploy": true
+                },
+                {
+      "name": "Trusses Experiment",
+      "short-name": "trusses",
+      "repo": "https://github.com/virtual-labs/exp-trusses-iiith",
+      "tag": "v1.0.0",
+      "deploy": true
+                },
+                {
+      "name": "Retaining Walls Experiment",
+      "short-name": "retaining-walls",
+      "repo": "https://github.com/virtual-labs/exp-retaining-walls-iiith",
+      "tag": "v1.0.0",
+      "deploy": true
+                },
+                {
+      "name": "Plastic Hinge Experiment",
+      "short-name": "plastic-hinge",
+      "repo": "https://github.com/virtual-labs/exp-plastic-hinge-iiith",
+      "tag": "v1.0.0",
+      "deploy": true
+                }
+        ],
     "targetAudience": {
-        "UG": [],
-        "PG": []
+        "UG": ["UG3/UG4 B.Tech Civil Engineering Students"],
+        "PG": ["Ph. D. Beginners"]
     },
-    "objective": "",
+    "objective": "This lab provides good understanding and learning opportunity of Basic Structural Analysis lab for the users.",
     "courseAlignment": {
         "description": "",
-        "universities": []
+        "universities": ["The present lab is aligned with courses of Basic Structural Analysis. These experiments are mostly covered in the curriculam."]
     }
 }
