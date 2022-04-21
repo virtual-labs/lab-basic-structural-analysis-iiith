@@ -54,30 +54,9 @@
       "deploy": true
     },
     {
-      "name": "Arches Experiment",
-      "short-name": "arches",
-      "repo": "https://github.com/virtual-labs/exp-arches-iiith",
-      "tag": "v1.0.3",
-      "deploy": true
-    },
-    {
-      "name": "Trusses Experiment",
-      "short-name": "trusses",
-      "repo": "https://github.com/virtual-labs/exp-trusses-iiith",
-      "tag": "v1.0.3",
-      "deploy": true
-    },
-    {
       "name": "Retaining Walls Experiment",
       "short-name": "retaining-walls",
       "repo": "https://github.com/virtual-labs/exp-retaining-walls-iiith",
-      "tag": "v1.0.3",
-      "deploy": true
-    },
-    {
-      "name": "Plastic Hinge Experiment",
-      "short-name": "plastic-hinge",
-      "repo": "https://github.com/virtual-labs/exp-plastic-hinge-iiith",
       "tag": "v1.0.3",
       "deploy": true
     }
@@ -93,7 +72,7 @@
       "The present lab is aligned with courses of Basic Structural Analysis. These experiments are mostly covered in the curriculam."
     ]
   },
-  "exp_name": "Plastic Hinge Experiment",
-  "exp_short_name": "plastic-hinge",
-  "version": "v0.3.0"
+  "exp_name": "Retaining Walls Experiment",
+  "exp_short_name": "retaining-walls",
+  "version": "v0.4.0"
 }
