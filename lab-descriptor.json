@@ -1,7 +1,8 @@
 {
   "broadArea": {
     "name": "Civil Engineering",
-    "link": "https://www.vlab.co.in/broad-area-civil-engineering"
+    "link": "https://www.vlab.co.in/broad-area-civil-engineering",
+    "code":"CIVIL"
   },
   "lab": "Basic Structural Analysis",
   "lab_display_name": "Basic Structural Analysis",
@@ -71,8 +72,5 @@
     "universities": [
       "The present lab is aligned with courses of Basic Structural Analysis. These experiments are mostly covered in the curriculam."
     ]
-  },
-  "exp_name": "Retaining Walls Experiment",
-  "exp_short_name": "retaining-walls",
-  "version": "v0.4.0"
+  }
 }
